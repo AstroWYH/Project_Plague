@@ -1,4 +1,4 @@
-﻿Log file open, 08/12/25 20:48:52
+﻿Log file open, 08/12/25 19:42:32
 LogConsoleManager: Warning: Console object named 'p.ForceJumpPeakSubstep' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
 LogConsoleManager: Warning: Console object named 'p.UseTargetVelocityOnImpact' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
 LogWindows: Custom abort handler registered for crash reporting.
@@ -19,7 +19,7 @@ LogPakFile: Display: Mounting pak file ../../../Project_Plague/Content/Paks/Proj
 LogPakFile: Display: Mounted Pak file '../../../Project_Plague/Content/Paks/Project_Plague-Windows.pak', mount point: '../../../'
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogInit: Session CrashGUID >====================================================
-         Session CrashGUID >   UECC-Windows-92BD19A1432E56123AFE22983973CCCC
+         Session CrashGUID >   UECC-Windows-71A6014F4D02F01B8F99D29A345AF83D
          Session CrashGUID >====================================================
 LogConfig: Warning: Found a deprecated ini section name in ../../../Project_Plague/Config/DefaultGame.ini. Search for [WhitelistConfigFiles] and replace with [AllowedConfigFiles]
 LogConfig: Warning: Found a deprecated ini section name in ../../../Project_Plague/Config/DefaultGame.ini. Search for [WhitelistConfigFiles] and replace with [AllowedConfigFiles]
@@ -66,6 +66,7 @@ LogPluginManager: Mounting Project plugin StarGraphHelperNative
 LogPluginManager: Mounting Project plugin StarGraphHelperTest
 LogPluginManager: Mounting Project plugin StarGraphHelper
 LogPluginManager: Mounting Project plugin HardwareHelper
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../Project_Plague/AssetRegistry.bin'
 LogPluginManager: Mounting Project plugin InteractiveWorld
 LogPluginManager: Mounting Project plugin MMPlatformHelper
 LogPluginManager: Mounting Project plugin NiagaraUIRenderer
@@ -158,7 +159,6 @@ LogPluginManager: Mounting Engine plugin EOSShared
 LogPluginManager: Mounting Engine plugin OnlineBase
 LogPluginManager: Mounting Engine plugin OnlineServices
 LogPluginManager: Mounting Engine plugin OnlineSubsystemEOS
-LogAssetRegistry: Premade AssetRegistry loaded from '../../../Project_Plague/AssetRegistry.bin'
 LogPluginManager: Mounting Engine plugin OnlineSubsystemGOG
 LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
 LogPluginManager: Mounting Engine plugin OnlineSubsystemSteam
@@ -308,224 +308,9 @@ LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugi
 LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/Tests/EditorTests/Content/' mounted to '/EditorTests/'
 LogPackageName: Display: FPackageName: Mount point added: '../../../Engine/Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
 LogConfig: Applying CVar settings from Section [/Script/FFXFSR3Settings.FFXFSR3Settings] File [Engine]
-[2025.08.12-12.48.52:838][  0]LogMemory: Platform Memory Stats for Windows
-[2025.08.12-12.48.52:838][  0]LogMemory: Process Physical Memory: 208.52 MB used, 227.55 MB peak
-[2025.08.12-12.48.52:838][  0]LogMemory: Process Virtual Memory: 221.91 MB used, 221.91 MB peak
-[2025.08.12-12.48.52:838][  0]LogMemory: Physical Memory: 29647.25 MB used,  35802.54 MB free, 65449.78 MB total
-[2025.08.12-12.48.52:838][  0]LogMemory: Virtual Memory: 40759.73 MB used,  39538.05 MB free, 80297.78 MB total
-[2025.08.12-12.49.06:058][775]Command not recognized: disableallscreenmessages
-[2025.08.12-12.49.06:067][775]r.Shadow.Virtual.Clipmap.FirstLevel = "6"
-[2025.08.12-12.49.06:067][775]r.VolumetricFog.GridSizeZ = "128"
-[2025.08.12-12.49.06:071][775]XInput.XBoxUsingGameInputRumble = "false"
-[2025.08.12-12.49.06:072][775]r.HDR.Display.MaxLuminance = "1000"
-[2025.08.12-12.49.06:072][775]r.HDR.Display.MidLuminance = "17.7778"
-[2025.08.12-12.49.06:072][775]t.MaxFPS = "60"
-[2025.08.12-12.49.06:072][775]r.VSync = "1"
-[2025.08.12-12.49.06:072][775]t.MaxFPS = "999"
-[2025.08.12-12.49.06:072][775]rhi.SyncInterval = "1"
-[2025.08.12-12.49.06:072][775]r.MotionBlurQuality = "0"
-[2025.08.12-12.49.06:072][775]r.ScreenPercentage = "50"
-[2025.08.12-12.49.06:072][775]r.NIS.Enable = "1"
-[2025.08.12-12.49.06:072][775]r.FidelityFX.FSR3.Sharpness = "0"
-[2025.08.12-12.49.06:072][775]r.Tonemapper.Sharpen = "0"
-[2025.08.12-12.49.06:072][775]r.AntiAliasingMethod = "4"
-[2025.08.12-12.49.06:072][775]r.NIS.Sharpness = "0"      LastSetBy: Constructor
-[2025.08.12-12.49.06:072][775]r.FXAA.Quality = "5"
-[2025.08.12-12.49.06:072][775]r.TemporalAA.Quality = "1"
-[2025.08.12-12.49.06:072][775]r.TSR.History.R11G11B10 = "1"
-[2025.08.12-12.49.06:072][775]r.TSR.History.ScreenPercentage = "100"
-[2025.08.12-12.49.06:072][775]r.TSR.History.UpdateQuality = "2"
-[2025.08.12-12.49.06:072][775]r.TSR.History.GrandReprojection = "0"
-[2025.08.12-12.49.06:072][775]r.TSR.ShadingRejection.Flickering = "1"
-[2025.08.12-12.49.06:073][775]r.TSR.Velocity.Extrapolation = "0"
-[2025.08.12-12.49.06:073][775]Command not recognized: r.TSR.Velocity.HoleFill 1
-[2025.08.12-12.49.06:073][775]r.TSR.RejectionAntiAliasingQuality = "1"
-[2025.08.12-12.49.06:073][775]r.NIS.Sharpness = "0.3"
-[2025.08.12-12.49.06:073][775]r.MotionBlur.HalfResGather = "0"
-[2025.08.12-12.49.06:073][775]r.AmbientOcclusionMipLevelFactor = "0.6"
-[2025.08.12-12.49.06:073][775]r.AmbientOcclusionMaxQuality = "100"
-[2025.08.12-12.49.06:073][775]r.AmbientOcclusionLevels = "-1"
-[2025.08.12-12.49.06:073][775]r.AmbientOcclusionRadiusScale = "1.5"
-[2025.08.12-12.49.06:073][775]r.DepthOfFieldQuality = "2"
-[2025.08.12-12.49.06:073][775]r.RenderTargetPoolMin = "400"
-[2025.08.12-12.49.06:073][775]r.LensFlareQuality = "2"
-[2025.08.12-12.49.06:073][775]r.EyeAdaptationQuality = "2"
-[2025.08.12-12.49.06:073][775]r.BloomQuality = "5"
-[2025.08.12-12.49.06:073][775]r.Bloom.ScreenPercentage = "50"
-[2025.08.12-12.49.06:073][775]r.FastBlurThreshold = "7"
-[2025.08.12-12.49.06:073][775]r.Upscale.Quality = "2"
-[2025.08.12-12.49.06:073][775]r.Tonemapper.GrainQuantization = "1"
-[2025.08.12-12.49.06:073][775]r.LightShaftQuality = "1"
-[2025.08.12-12.49.06:073][775]r.Filter.SizeScale = "0.8"
-[2025.08.12-12.49.06:073][775]r.Tonemapper.Quality = "5"
-[2025.08.12-12.49.06:073][775]r.DOF.Gather.AccumulatorQuality = "0"
-[2025.08.12-12.49.06:073][775]r.DOF.Gather.PostfilterMethod = "2"
-[2025.08.12-12.49.06:073][775]r.DOF.Gather.EnableBokehSettings = "0"
-[2025.08.12-12.49.06:073][775]r.DOF.Gather.RingCount = "4"
-[2025.08.12-12.49.06:073][775]r.DOF.Scatter.ForegroundCompositing = "1"
-[2025.08.12-12.49.06:073][775]r.DOF.Scatter.BackgroundCompositing = "1"
-[2025.08.12-12.49.06:073][775]r.DOF.Scatter.EnableBokehSettings = "0"
-[2025.08.12-12.49.06:073][775]r.DOF.Scatter.MaxSpriteRatio = "0.04"
-[2025.08.12-12.49.06:073][775]r.DOF.Recombine.Quality = "0"
-[2025.08.12-12.49.06:073][775]r.DOF.Recombine.EnableBokehSettings = "1"
-[2025.08.12-12.49.06:073][775]r.DOF.TemporalAAQuality = "0"
-[2025.08.12-12.49.06:073][775]r.DOF.Kernel.MaxForegroundRadius = "0.012"
-[2025.08.12-12.49.06:073][775]r.DOF.Kernel.MaxBackgroundRadius = "0.012"
-[2025.08.12-12.49.06:073][775]r.SkinCache.Mode = "1"
-[2025.08.12-12.49.06:073][775]r.Shadow.Virtual.Clipmap.FirstLevel = "6"
-[2025.08.12-12.49.06:073][775]r.Shadow.Virtual.Clipmap.LastLevel = "16"
-[2025.08.12-12.49.06:073][775]r.LightFunctionQuality = "1"
-[2025.08.12-12.49.06:073][775]r.ShadowQuality = "3"
-[2025.08.12-12.49.06:074][775]r.Shadow.CSM.MaxCascades = "2"
-[2025.08.12-12.49.06:074][775]r.Shadow.MaxResolution = "1024"
-[2025.08.12-12.49.06:074][775]r.Shadow.MaxCSMResolution = "1024"
-[2025.08.12-12.49.06:074][775]r.Shadow.RadiusThreshold = "0.01"
-[2025.08.12-12.49.06:074][775]r.Shadow.DistanceScale = "1"
-[2025.08.12-12.49.06:074][775]r.Shadow.CSM.TransitionScale = "0.25"
-[2025.08.12-12.49.06:074][775]r.Shadow.PreShadowResolutionFactor = "0.5"
-[2025.08.12-12.49.06:074][775]r.DistanceFieldShadowing = "0"
-[2025.08.12-12.49.06:074][775]r.DistanceFieldAO = "1"
-[2025.08.12-12.49.06:074][775]r.AOQuality = "1"
-[2025.08.12-12.49.06:074][775]r.VolumetricFog.HistoryMissSupersampleCount = "4"
-[2025.08.12-12.49.06:074][775]r.LightMaxDrawDistanceScale = "1.0"
-[2025.08.12-12.49.06:074][775]r.CapsuleShadows = "1"
-[2025.08.12-12.49.06:074][775]r.Shadow.Virtual.MaxPhysicalPages = "2048"
-[2025.08.12-12.49.06:074][775]r.Shadow.Virtual.ResolutionLodBiasLocal = "1"
-[2025.08.12-12.49.06:074][775]r.Shadow.Virtual.SMRT.RayCountDirectional = "4"
-[2025.08.12-12.49.06:074][775]r.Shadow.Virtual.SMRT.SamplesPerRayDirectional = "2"
-[2025.08.12-12.49.06:074][775]r.Shadow.Virtual.SMRT.RayCountLocal = "4"
-[2025.08.12-12.49.06:074][775]r.Shadow.Virtual.SMRT.SamplesPerRayLocal = "2"
-[2025.08.12-12.49.06:074][775]r.SceneColorFormat = "3"
-[2025.08.12-12.49.06:074][775]r.SSS.HalfRes = "1"
-[2025.08.12-12.49.06:074][775]r.Nanite.MaxPixelsPerEdge = "2"
-[2025.08.12-12.49.06:074][775]r.Nanite.MinPixelsPerEdgeHW = "32"
-[2025.08.12-12.49.06:074][775]r.TranslucencyLightingVolumeDim = "64"
-[2025.08.12-12.49.06:074][775]r.RefractionQuality = "1"
-[2025.08.12-12.49.06:074][775]r.SSR.Quality = "2"
-[2025.08.12-12.49.06:074][775]r.SSR.HalfResSceneColor = "1"
-[2025.08.12-12.49.06:074][775]r.DetailMode = "2"
-[2025.08.12-12.49.06:074][775]r.TranslucencyVolumeBlur = "1"
-[2025.08.12-12.49.06:074][775]r.SSS.Scale = "1"
-[2025.08.12-12.49.06:074][775]r.SSS.SampleSet = "2"
-[2025.08.12-12.49.06:074][775]r.SSS.Quality = "-1"
-[2025.08.12-12.49.06:074][775]r.SSGI.Quality = "0"
-[2025.08.12-12.49.06:074][775]r.EmitterSpawnRateScale = "1"
-[2025.08.12-12.49.06:074][775]r.ParticleLightQuality = "1"
-[2025.08.12-12.49.06:074][775]r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque = "1"
-[2025.08.12-12.49.06:074][775]r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice = "1"
-[2025.08.12-12.49.06:074][775]r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution = "8"
-[2025.08.12-12.49.06:074][775]r.SkyAtmosphere.FastSkyLUT = "1"
-[2025.08.12-12.49.06:074][775]r.SkyAtmosphere.FastSkyLUT.SampleCountMin = "4"
-[2025.08.12-12.49.06:074][775]r.SkyAtmosphere.FastSkyLUT.SampleCountMax = "32"
-[2025.08.12-12.49.06:074][775]r.SkyAtmosphere.SampleCountMin = "4"
-[2025.08.12-12.49.06:075][775]r.SkyAtmosphere.SampleCountMax = "32"
-[2025.08.12-12.49.06:075][775]r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat = "0"
-[2025.08.12-12.49.06:075][775]r.SkyAtmosphere.TransmittanceLUT.SampleCount = "10"
-[2025.08.12-12.49.06:075][775]r.SkyAtmosphere.MultiScatteringLUT.SampleCount = "15"
-[2025.08.12-12.49.06:075][775]r.SkyLight.RealTimeReflectionCapture = "1"
-[2025.08.12-12.49.06:075][775]fx.Niagara.QualityLevel = "2"
-[2025.08.12-12.49.06:075][775]r.SkeletalMeshLODBias = "0"
-[2025.08.12-12.49.06:075][775]r.ViewDistanceScale = "1"
-[2025.08.12-12.49.06:075][775]r.MipMapLODBias = "0"
-[2025.08.12-12.49.06:075][775]r.Streaming.AmortizeCPUToGPUCopy = "0"
-[2025.08.12-12.49.06:075][775]r.Streaming.MaxNumTexturesToStreamPerFrame = "0"
-[2025.08.12-12.49.06:075][775]r.Streaming.Boost = "1"
-[2025.08.12-12.49.06:075][775]r.MaxAnisotropy = "4"
-[2025.08.12-12.49.06:075][775]r.VT.MaxAnisotropy = "8"
-[2025.08.12-12.49.06:075][775]r.Streaming.LimitPoolSizeToVRAM = "0"
-[2025.08.12-12.49.06:075][775]r.Streaming.PoolSize = "2000"
-[2025.08.12-12.49.06:075][775]foliage.MinimumScreenSize = "5e-06"
-[2025.08.12-12.49.06:075][775]foliage.DensityScale = "0.7"
-[2025.08.12-12.49.06:075][775]grass.densityScale = "0.7"
-[2025.08.12-12.49.06:075][775]r.MaterialQualityLevel = "2"
-[2025.08.12-12.49.06:075][775]r.VolumetricFog = "1"
-[2025.08.12-12.49.06:075][775]r.Shadow.Virtual.ResolutionLodBiasDirectional = "0"
-[2025.08.12-12.49.06:075][775]r.VolumetricFog.GridSizeZ = "128"
-[2025.08.12-12.49.06:075][775]r.VolumetricFog.GridPixelSize = "16"
-[2025.08.12-12.49.06:075][775]r.Lumen.TraceDistanceScale = "1.0"
-[2025.08.12-12.49.06:075][775]r.LumenScene.Radiosity = "0"
-[2025.08.12-12.49.06:075][775]r.Lumen.DiffuseIndirect.Allow = "1"
-[2025.08.12-12.49.06:075][775]r.LumenScene.Radiosity.ProbeSpacing = "8"
-[2025.08.12-12.49.06:075][775]r.LumenScene.Radiosity.HemisphereProbeResolution = "3"
-[2025.08.12-12.49.06:075][775]r.Lumen.TraceMeshSDFs.Allow = "0"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution = "16"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget = "300"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.DownsampleFactor = "32"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.TracingOctahedronResolution = "8"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.IrradianceFormat = "1"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.StochasticInterpolation = "1"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.FullResolutionJitterWidth = "1.0"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse = "0"
-[2025.08.12-12.49.06:076][775]r.Lumen.TranslucencyVolume.GridPixelSize = "64"
-[2025.08.12-12.49.06:076][775]r.Lumen.TranslucencyVolume.TraceFromVolume = "0"
-[2025.08.12-12.49.06:076][775]r.Lumen.TranslucencyVolume.TracingOctahedronResolution = "3"
-[2025.08.12-12.49.06:076][775]r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution = "8"
-[2025.08.12-12.49.06:076][775]r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget = "200"
-[2025.08.12-12.49.06:076][775]r.LumenScene.SurfaceCache.CardCaptureRefreshFraction = "0"
-[2025.08.12-12.49.06:076][775]r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal = "0"
-[2025.08.12-12.49.06:076][775]r.Lumen.DiffuseIndirect.SSAO = "1"
-[2025.08.12-12.49.06:076][775]r.Lumen.Reflections.Allow = "1"
-[2025.08.12-12.49.06:076][775]r.Lumen.Reflections.DownsampleFactor = "2"
-[2025.08.12-12.49.06:076][775]r.Lumen.TranslucencyReflections.FrontLayer.Allow = "0"
-[2025.08.12-12.49.06:076][775]r.Lumen.TranslucencyReflections.FrontLayer.Enable = "0"
-[2025.08.12-12.49.06:076][775]r.AOGlobalDistanceField = "1"
-[2025.08.12-12.49.06:124][775]WindowsApplication.PreSetWindowMode = "WindowedFullscreen"
-[2025.08.12-12.49.06:507][775]r.HDR.EnableHDROutput = "0"
-[2025.08.12-12.49.06:507][775]r.Streamline.TagUIColorAlpha = "true"
-[2025.08.12-12.49.06:507][775]Command not recognized: disableallscreenmessages
-[2025.08.12-12.49.06:845][784]r.ScreenPercentage = "50"
-[2025.08.12-12.49.08:321][874]r.Streaming.MipBias = "1"
-[2025.08.12-12.50.21:497][133]r.ShaderPipelineCache.BatchTime = "16"
-[2025.08.12-12.50.21:497][133]r.ShaderPipelineCache.BatchSize = "50"
-[2025.08.12-12.51.05:467][765]r.VSync = "0"
-[2025.08.12-12.51.05:467][765]t.MaxFPS = "60"
-[2025.08.12-12.51.30:383][260]r.Shadow.Virtual.Clipmap.FirstLevel = "9"
-[2025.08.12-12.51.30:383][260]r.VolumetricFog.GridSizeZ = "128"
-[2025.08.12-12.51.30:487][261]Command not recognized: DisableAllScreenMessages
-[2025.08.12-12.51.30:487][261]dcs.runtime.LODForceSettings = "0"
-[2025.08.12-12.51.30:488][261]s.AsyncLoadingTimeLimit = "50000.0"
-[2025.08.12-12.51.30:488][261]s.PriorityAsyncLoadingExtraTime = "25000.0"
-[2025.08.12-12.51.30:488][261]s.LevelStreamingActorsUpdateTimeLimit = "50000.0"
-[2025.08.12-12.51.30:488][261]s.PriorityLevelStreamingActorsUpdateExtraTime = "50000.0"
-[2025.08.12-12.51.30:488][261]s.LevelStreamingComponentsRegistrationGranularity = "1000000"
-[2025.08.12-12.51.30:488][261]s.LevelStreamingAddPrimitiveGranularity = "1000000"
-[2025.08.12-12.51.30:488][261]Command not recognized: s.LevelStreamingUnregisterComponentsTimeLimit 50000.0
-[2025.08.12-12.51.30:488][261]s.LevelStreamingComponentsUnregistrationGranularity = "1000000"
-[2025.08.12-12.51.30:488][261]dcs.runtime.DCSLazyLoad = "1"
-[2025.08.12-12.51.30:488][261]ControlRig.DisableExecutionAll = "1"
-[2025.08.12-12.51.30:488][261]dcs.SmoonthActorRouteInitialize = "1"
-[2025.08.12-12.51.30:488][261]r.Shadow.Virtual.Clipmap.LastLevel = "0"
-[2025.08.12-12.51.30:488][261]r.Shadow.Virtual.Cache = "0"
-[2025.08.12-12.51.30:493][261]Command not recognized: disableallscreenmessages
-[2025.08.12-12.51.44:167][954]r.Lumen.Reflections.MaxRayIntensity = "100.0"
-[2025.08.12-12.51.44:699][977]s.AsyncLoadingTimeLimit = "2.0"
-[2025.08.12-12.51.44:699][977]s.PriorityAsyncLoadingExtraTime = "15.0"
-[2025.08.12-12.51.44:699][977]s.LevelStreamingActorsUpdateTimeLimit = "2.0"
-[2025.08.12-12.51.44:699][977]s.PriorityLevelStreamingActorsUpdateExtraTime = "1.0"
-[2025.08.12-12.51.44:699][977]s.LevelStreamingComponentsRegistrationGranularity = "2"
-[2025.08.12-12.51.44:699][977]s.LevelStreamingAddPrimitiveGranularity = "2"
-[2025.08.12-12.51.44:699][977]Command not recognized: s.LevelStreamingUnregisterComponentsTimeLimit 1.0
-[2025.08.12-12.51.44:699][977]s.LevelStreamingComponentsUnregistrationGranularity = "2"
-[2025.08.12-12.51.44:699][977]dcs.runtime.DCSLazyLoad = "0"
-[2025.08.12-12.51.44:699][977]ControlRig.DisableExecutionAll = "0"
-[2025.08.12-12.51.44:699][977]dcs.SmoonthActorRouteInitialize = "1"
-[2025.08.12-12.51.44:699][977]r.Shadow.Virtual.Cache = "1"
-[2025.08.12-12.51.44:699][977]r.Shadow.Virtual.Clipmap.LastLevel = "16"
-[2025.08.12-12.51.47:709][150]r.Shadow.Virtual.Clipmap.FirstLevel = "6"
-[2025.08.12-12.51.47:709][150]r.VolumetricFog.GridSizeZ = "128"
-[2025.08.12-12.51.47:709][150]r.DOF.DLSS.HiResHalfResSceneColor = "0"
-[2025.08.12-12.52.33:621][904]r.Shadow.Virtual.Clipmap.FirstLevel = "9"
-[2025.08.12-12.52.33:621][904]r.VolumetricFog.GridSizeZ = "128"
-[2025.08.12-12.52.33:621][904]r.DOF.DLSS.HiResHalfResSceneColor = "1"
-[2025.08.12-12.53.51:346][536]r.VSync = "1"
-[2025.08.12-12.53.51:346][536]t.MaxFPS = "999"
-[2025.08.12-12.54.38:852][375]r.Shadow.Virtual.Clipmap.FirstLevel = "6"
-[2025.08.12-12.54.38:852][375]r.VolumetricFog.GridSizeZ = "128"
-[2025.08.12-12.54.38:852][375]r.DOF.DLSS.HiResHalfResSceneColor = "0"
-[2025.08.12-12.55.56:938][ 46]r.Shadow.Virtual.Clipmap.FirstLevel = "9"
-[2025.08.12-12.55.56:938][ 46]r.VolumetricFog.GridSizeZ = "128"
-[2025.08.12-12.55.56:938][ 46]r.DOF.DLSS.HiResHalfResSceneColor = "1"
-[2025.08.12-12.55.57:100][ 50]PIE: Warning: Interact Brush:  BP_Brush_Shape_C_2147458797 ISN'T attached to an Actor with Collisitn. Interact Volume will not work with it. Please make Actor:  DI_Katana01_C_2147458799 has query collision to 'WorldDynamic'
-[2025.08.12-12.59.04:603][275]r.Lumen.Reflections.MaxRayIntensity = "0.4"
-[2025.08.12-13.01.47:901][ 62]Closing by request
-[2025.08.12-13.01.55:873][ 63]Log file closed, 08/12/25 21:01:55
+[2025.08.12-11.42.33:043][  0]LogMemory: Platform Memory Stats for Windows
+[2025.08.12-11.42.33:043][  0]LogMemory: Process Physical Memory: 200.07 MB used, 224.80 MB peak
+[2025.08.12-11.42.33:043][  0]LogMemory: Process Virtual Memory: 215.52 MB used, 215.52 MB peak
+[2025.08.12-11.42.33:043][  0]LogMemory: Physical Memory: 38809.84 MB used,  26639.94 MB free, 65449.78 MB total
+[2025.08.12-11.42.33:043][  0]LogMemory: Virtual Memory: 48164.03 MB used,  32133.75 MB free, 80297.78 MB total
+[2025.08.12-11.42.43:765][232]Log file closed, 08/12/25 19:42:43
